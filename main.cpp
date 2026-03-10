@@ -73,7 +73,6 @@ void update(float &paddleX, float &paddleY, int paddleSpeed, float paddleWidth,
     ballVelocityY = -ballVelocityY;
   }
   if (ballY + ballSize > windowHeight) {
-    // TODO: clean up and put these setters into reset function...
     ballX = 400;
     ballY = 300;
     ballVelocityX = 200.0f;
