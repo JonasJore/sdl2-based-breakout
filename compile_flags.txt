@@ -1,0 +1,3 @@
+-I/opt/homebrew/include/SDL2
+-I/opt/homebrew/include
+-D_REENTRANT
